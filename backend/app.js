@@ -22,7 +22,7 @@ app.set("views", path.join(__dirname, "./views"));
 app.set("view engine", "ejs");
 
 // define access path for static files
-const accessPath = path.join(__dirname, "./public");
+const accessPath = path.join(__dirname, "../front-end/public");
 app.use(express.static(accessPath));
 
 app.use(express.json());
